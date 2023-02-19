@@ -24,6 +24,17 @@
                     Console.WriteLine(s.Name);
                 }
             }
+
+            var result = students.GroupBy((s) => s.Id);
+
+            foreach (var groupby in result)
+            {
+                Console.WriteLine($"Grouped by Id {groupby.Key}");
+                foreach (var gr in groupby)
+                {
+                    Console.WriteLine($"{gr.Id } {gr.Name} {gr.Age} ");
+                }
+            }
         }
     }
 }
