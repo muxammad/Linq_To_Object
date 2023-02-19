@@ -1,0 +1,15 @@
+N:\Linq\Linq\Linq.Filtering\bin\Debug\net6.0\Linq.Filtering.exe
+N:\Linq\Linq\Linq.Filtering\bin\Debug\net6.0\Linq.Filtering.deps.json
+N:\Linq\Linq\Linq.Filtering\bin\Debug\net6.0\Linq.Filtering.runtimeconfig.json
+N:\Linq\Linq\Linq.Filtering\bin\Debug\net6.0\Linq.Filtering.dll
+N:\Linq\Linq\Linq.Filtering\bin\Debug\net6.0\Linq.Filtering.pdb
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\Linq.Filtering.csproj.AssemblyReference.cache
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\Linq.Filtering.GeneratedMSBuildEditorConfig.editorconfig
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\Linq.Filtering.AssemblyInfoInputs.cache
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\Linq.Filtering.AssemblyInfo.cs
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\Linq.Filtering.csproj.CoreCompileInputs.cache
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\Linq.Filtering.dll
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\refint\Linq.Filtering.dll
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\Linq.Filtering.pdb
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\Linq.Filtering.genruntimeconfig.cache
+N:\Linq\Linq\Linq.Filtering\obj\Debug\net6.0\ref\Linq.Filtering.dll

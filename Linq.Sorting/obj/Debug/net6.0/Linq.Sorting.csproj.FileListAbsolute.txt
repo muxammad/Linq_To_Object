@@ -1,0 +1,15 @@
+N:\Linq\Linq\Linq.Sorting\bin\Debug\net6.0\Linq.Sorting.exe
+N:\Linq\Linq\Linq.Sorting\bin\Debug\net6.0\Linq.Sorting.deps.json
+N:\Linq\Linq\Linq.Sorting\bin\Debug\net6.0\Linq.Sorting.runtimeconfig.json
+N:\Linq\Linq\Linq.Sorting\bin\Debug\net6.0\Linq.Sorting.dll
+N:\Linq\Linq\Linq.Sorting\bin\Debug\net6.0\Linq.Sorting.pdb
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\Linq.Sorting.csproj.AssemblyReference.cache
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\Linq.Sorting.GeneratedMSBuildEditorConfig.editorconfig
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\Linq.Sorting.AssemblyInfoInputs.cache
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\Linq.Sorting.AssemblyInfo.cs
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\Linq.Sorting.csproj.CoreCompileInputs.cache
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\Linq.Sorting.dll
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\refint\Linq.Sorting.dll
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\Linq.Sorting.pdb
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\Linq.Sorting.genruntimeconfig.cache
+N:\Linq\Linq\Linq.Sorting\obj\Debug\net6.0\ref\Linq.Sorting.dll
