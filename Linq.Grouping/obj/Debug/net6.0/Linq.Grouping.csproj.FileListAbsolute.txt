@@ -1,0 +1,15 @@
+N:\Linq\Linq\Linq.Grouping\bin\Debug\net6.0\Linq.Grouping.exe
+N:\Linq\Linq\Linq.Grouping\bin\Debug\net6.0\Linq.Grouping.deps.json
+N:\Linq\Linq\Linq.Grouping\bin\Debug\net6.0\Linq.Grouping.runtimeconfig.json
+N:\Linq\Linq\Linq.Grouping\bin\Debug\net6.0\Linq.Grouping.dll
+N:\Linq\Linq\Linq.Grouping\bin\Debug\net6.0\Linq.Grouping.pdb
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\Linq.Grouping.csproj.AssemblyReference.cache
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\Linq.Grouping.GeneratedMSBuildEditorConfig.editorconfig
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\Linq.Grouping.AssemblyInfoInputs.cache
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\Linq.Grouping.AssemblyInfo.cs
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\Linq.Grouping.csproj.CoreCompileInputs.cache
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\Linq.Grouping.dll
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\refint\Linq.Grouping.dll
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\Linq.Grouping.pdb
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\Linq.Grouping.genruntimeconfig.cache
+N:\Linq\Linq\Linq.Grouping\obj\Debug\net6.0\ref\Linq.Grouping.dll
