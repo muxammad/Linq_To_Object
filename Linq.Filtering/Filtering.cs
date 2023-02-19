@@ -1,47 +1,61 @@
-﻿namespace Linq.Filtering;
+﻿using System.Collections;
 
-internal class Program
-{
-    static void Main(string[] args)
+namespace Linq.Filtering
     {
-        // Create a list of names
-        IEnumerable<string> names = new List<string>() { "Bill", "Stave", "George", "Linux", "John" };
-
-        // Use LINQ to filter the names that contain the letter "i" and are longer than 3 characters
-        var filteredNames = names.Where(name => name.Contains("i") && name.Length > 3);
-
-        // Print out the filtered names
-        foreach (var name in filteredNames)
+        internal class Program
         {
-            Console.WriteLine(name);
-        }
+            static void Main(string[] args)
+            {
+                IEnumerable<string> names = new List<string>() { "Bill", "Stave", "George", "Linux", "John" };
+                var filteredNames = names.Where(name => name.Contains("i") && name.Length > 3);
+                foreach (var name in filteredNames)
+                {
+                    Console.WriteLine(name);
+                }
 
-        // Create another list of names
-        IEnumerable<string> people = new List<string>() { "Bill", "Stave", "George", "Linux", "John" };
+                IEnumerable<string> people = new List<string>() { "Bill", "Stave", "George", "Linux", "John" };
+                var selectedNames = from n in people
+                                    where n.Contains("i") && n.Length > 3
+                                    select n;
+                foreach (var name in selectedNames)
+                {
+                    Console.WriteLine(name);
+                }
 
-        // Use LINQ to filter the names that contain the letter "i" and are longer than 3 characters, but using the query syntax
-        var selectedNames = from n in people
-                            where n.Contains("i") && n.Length > 3
+                IEnumerable<string> guys = new List<string>() { "Bill", "Stave", "George", "Linux", "John" };
+                var mixSelectedNames = guys.Select(n => n)
+                    .Where((n)=> n.Contains("i") && n.Length > 3);   
+                foreach (var name in mixSelectedNames)
+                {
+                    Console.WriteLine(name);
+                }
+
+            // OfType Filtering 
+
+            IList mixsedlist = new ArrayList();
+            mixsedlist.Add(0);
+            mixsedlist.Add('0');
+            mixsedlist.Add("Hellow");
+            mixsedlist.Add(571);
+            mixsedlist.Add(new Student() { Id = 1, Name = "John" });
+
+            var stringResults = from str in mixsedlist.OfType<string>()
+                                select str;
+
+            var charResult = from chr in mixsedlist.OfType<char>()
+                             select chr;
+
+            var objectResulr = from obj in mixsedlist.OfType<Student>()
+                               select obj;
+
+            var numResult = from n in mixsedlist.OfType<int>()
                             select n;
 
-        // Print out the filtered names
-        foreach (var name in selectedNames)
-        {
-            Console.WriteLine(name);
-        }
+            foreach (var item in objectResulr)
+            {
+                Console.WriteLine(item.Name);
+            }
 
-        // Create yet another list of names
-        IEnumerable<string> guys = new List<string>() { "Bill", "Stave", "George", "Linux", "John" };
-
-        // Use a combination of the two LINQ syntaxes, filtering the names that contain the letter "i" and are longer than 3 characters
-        var mixSelectedNames = guys.Select(n => n)
-            .Where((n) => n.Contains("i") && n.Length > 3);
-
-        // Print out the filtered names
-        foreach (var name in mixSelectedNames)
-        {
-            Console.WriteLine(name);
+            }
         }
     }
-}
-
