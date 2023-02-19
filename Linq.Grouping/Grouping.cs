@@ -34,7 +34,7 @@
                 foreach (var gr in grouped)
                 {
                     Console.WriteLine($"{gr.Id} {gr.Name} {gr.Age} ");
-                }
+                }   
             }
 
         }
