@@ -35,6 +35,30 @@
                     Console.WriteLine($"{gr.Id } {gr.Name} {gr.Age} ");
                 }
             }
+
+            var lookUp = students.ToLookup(x => x.Age);
+            
+            foreach(var up in lookUp)
+            {
+                Console.WriteLine($"Age Grouping: {up.Key}");
+                foreach (var p in up)
+                {
+                    Console.WriteLine($"{p.Id} {p.Name} {p.Age}");
+                }
+            }
+
+            var resLookUp = from s in students
+                            group s by s.Age;
+
+            foreach (var age in resLookUp)
+            {
+                Console.WriteLine("Grouping with Age: " + age.Key);
+                foreach (var res in age)
+                {
+                    Console.WriteLine($"{res.Id} {res.Name} {res.Age}");
+                }
+            }
+                            
         }
     }
 }
