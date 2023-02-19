@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tmZYWHUtKtTLEZH4CE3zu1puRDAmC0zv466cSkkvvP7/sODF50QtvL9qUZjaDpYaAJ9/zec06UwnGUATRtZmag==",
+  "dgSpecHash": "mHi6OJ3QLvtR/DS29vot1D9dt4qgde/jnZDv7Z/4qpsK1ReFxEVl4INgBIc3Xkuq7N13zqnXdWyAzZBXxCi/NA==",
   "success": true,
-  "projectFilePath": "N:\\Linq\\Linq\\Projection\\Linq.Projection.csproj",
+  "projectFilePath": "C:\\Users\\muxam\\Source\\Repos\\Linq_To_Object1\\Projection\\Linq.Projection.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
