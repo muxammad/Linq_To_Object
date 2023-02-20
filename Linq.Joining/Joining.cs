@@ -1,4 +1,6 @@
-﻿namespace Linq.Joining
+﻿using System.Collections.Immutable;
+
+namespace Linq.Joining
 {
     internal class Joining
     {
@@ -35,9 +37,9 @@
         };
         IList<Standard> standards = new List<Standard>()
         {
-            new Standard() { StandardId = 1, StandardName = "Standart 1" },
-            new Standard() { StandardId = 2, StandardName = "Standart 2" },
-            new Standard() { StandardId = 3, StandardName = "Standart 3" },
+            new Standard() { StandardId = 1, StandardName = "Standard 1" },
+            new Standard() { StandardId = 2, StandardName = "Standard 2" },
+            new Standard() { StandardId = 3, StandardName = "Standard 3" },
            
         };
             var res = student1.Join(standards, (student1) => student1.Id, (standards) => standards.StandardId, (student1, standards) => new
@@ -46,10 +48,20 @@
                 StandardName = standards.StandardName,
             });
 
-            foreach (var item in res)
+            var joinQuerySyntax = from j in student1
+                                  join inner in standards
+                                  on j.StandardId equals inner.StandardId
+                                  select new
+                                  {
+                                      Name = j.Name,
+                                      StandardName = inner.StandardName
+                                  };
+
+            foreach (var item in joinQuerySyntax)
             {
                 Console.WriteLine(item);
             }
+
 
         }
     } 
