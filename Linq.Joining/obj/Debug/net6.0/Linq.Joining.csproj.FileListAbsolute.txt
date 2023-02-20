@@ -1,0 +1,15 @@
+N:\Linq\Linq\Linq.Joining\bin\Debug\net6.0\Linq.Joining.exe
+N:\Linq\Linq\Linq.Joining\bin\Debug\net6.0\Linq.Joining.deps.json
+N:\Linq\Linq\Linq.Joining\bin\Debug\net6.0\Linq.Joining.runtimeconfig.json
+N:\Linq\Linq\Linq.Joining\bin\Debug\net6.0\Linq.Joining.dll
+N:\Linq\Linq\Linq.Joining\bin\Debug\net6.0\Linq.Joining.pdb
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\Linq.Joining.csproj.AssemblyReference.cache
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\Linq.Joining.GeneratedMSBuildEditorConfig.editorconfig
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\Linq.Joining.AssemblyInfoInputs.cache
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\Linq.Joining.AssemblyInfo.cs
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\Linq.Joining.csproj.CoreCompileInputs.cache
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\Linq.Joining.dll
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\refint\Linq.Joining.dll
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\Linq.Joining.pdb
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\Linq.Joining.genruntimeconfig.cache
+N:\Linq\Linq\Linq.Joining\obj\Debug\net6.0\ref\Linq.Joining.dll

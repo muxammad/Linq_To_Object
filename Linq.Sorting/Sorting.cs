@@ -36,13 +36,17 @@
            
 
             var sortedQuerySyntax = from s in students
-                                    orderby s.Name descending
+                                    orderby s.Id descending
                                     select s;
 
-            foreach (var item in sortedQuerySyntax)
-            {
-                Console.WriteLine(item.Name);
-            }
+            var withThanby = students.OrderBy(x => x.Id)
+                .ThenBy(n => n.Name.Length);
+
+            var withThanbyQuery = from s in students
+                                  orderby s.Id,s.Name.Length
+                                  select s;
+
+
 
 
 

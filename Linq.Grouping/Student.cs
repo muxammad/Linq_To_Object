@@ -1,4 +1,4 @@
-﻿namespace Linq.Grouping
+namespace Linq.Grouping
 {
     public class Student
     {
